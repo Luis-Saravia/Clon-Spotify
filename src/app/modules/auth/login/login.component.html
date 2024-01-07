@@ -1,0 +1,16 @@
+<h2>Clon Spotify</h2>
+
+<form [formGroup]="form" (submit)="send()">
+  <h3>Login</h3>
+  <div>
+    <label>Email</label>
+    <input type="text" formControlName="email" />
+  </div>
+
+  <div>
+    <label>Password</label>
+    <input type="text" formControlName="password" />
+  </div>
+
+  <button>Ingresar</button>
+</form>

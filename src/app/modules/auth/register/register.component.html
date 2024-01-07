@@ -1,0 +1,51 @@
+<h2>Register Clon Spotify</h2>
+
+<form [formGroup]="form" (submit)="send()">
+  <h3>Register</h3>
+  <div>
+    <label>Name</label>
+    <input type="text" formControlName="name" />
+  </div>
+
+  <div>
+    <label>Lastname</label>
+    <input type="text" formControlName="lastname" />
+  </div>
+
+  <div>
+    <label>Email</label>
+    <input type="text" formControlName="email" />
+  </div>
+
+  <div>
+    <label>Number</label>
+    <input type="text" formControlName="number" />
+  </div>
+
+  <div>
+    <label>Country</label>
+    <select name="" id="" formControlName="country">
+      <option disabled value="">Seleccionar</option>
+      <option value="Perú">Perú</option>
+      <option value="Colombia">Colombia</option>
+    </select>
+  </div>
+
+  <div>
+    <label>City</label>
+    <input type="text" formControlName="city" />
+  </div>
+
+  <div>
+    <label>Address</label>
+    <input type="text" formControlName="address" />
+  </div>
+
+  <div>
+    <label>identify</label>
+    <input type="text" formControlName="identify" />
+  </div>
+
+
+  <button>Ingresar</button>
+</form>
